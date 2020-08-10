@@ -3,6 +3,7 @@
 apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
+  namespace:weather-app-test
   annotations:
     image.opencontainers.org/created: "2019-11-04T21:03:31Z"
     stack.appsody.dev/configured: java-microprofile:0.2
